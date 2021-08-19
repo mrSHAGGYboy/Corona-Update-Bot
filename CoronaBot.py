@@ -14,7 +14,7 @@ def staat(qq):
   url = "https://api.telegram.org/bot"+BOTT+"/sendphoto"
   data = {
     "chat_id": str(qq),
-    "photo": "https://telegra.ph/file/ece9c5aedd5d44a04c184.jpg",
+    "photo": "https://telegra.ph/file/29578f9cd7129ff2c48df.jpg",
     "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @sl_corona_update_bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ https://t.me/SL_MEDIA_TECH_GRUOP",
     "parse_mode": "HTML",
     "reply_markup": {
